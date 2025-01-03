@@ -118,9 +118,16 @@ main{
 
 .about{
     padding: 130px;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: #FFF8F3;
     margin: 130px 0px;
+}
+
+.inner-about{
+    padding: 0px 50px 30px 50px;
+    border: #181818 solid 1px;
+    border-radius: 5px;
+    background-color: white;
 }
 
 .about-info-container{
@@ -141,4 +148,15 @@ main{
 .info-description{
     font-weight: bold;
     margin-top: 10px;
+}
+
+/* what i do styles */
+
+#what-i-do-description{
+    padding: 30px 60px;
+}
+
+.skills-container img{
+    max-width: 44px;
+    max-height: 44px;
 }
